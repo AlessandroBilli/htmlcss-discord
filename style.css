@@ -1,0 +1,148 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stile del corpo del documento */
+body {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+}
+
+
+
+hr{
+    width: 100%;
+    color: white;
+    margin-top: 48px;
+    margin-bottom: 32px;
+}
+
+/* Stile dell'intestazione superiore */
+.headerbg {
+    padding: 16px 0;
+    background-color: #ADD8E6; 
+    
+}
+
+/* Stile della sezione ocra */
+.ocra {
+    background-color: #DAA520; /* Ocra */
+    border: 2px dashed black;
+}
+
+/* Stile della sezione grigia */
+.grey {
+    background-color: #D3D3D3;
+}
+
+/* Stile del riquadro scuro */
+.darkpink {
+    background-color: #EE82EE;
+    max-width: 960px;
+    min-height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px dashed black;
+}
+
+/* Stile del contenitore flessibile */
+.container {
+    max-width: 1180px;
+    min-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+/* Stile degli elementi nell'intestazione */
+.headeritem {
+    border: 2px solid black;
+    padding: 8px;
+}
+
+/* Stile del logo nell'intestazione */
+.headeritem.logo {
+    width: 20%;
+}
+
+/* Stile dei link nel centro dell'intestazione */
+.headeritem.center {
+    width: 60%;
+    text-align: center;
+}
+
+/* Stile del pulsante di login nell'intestazione */
+.headeritem.login {
+    text-align: end;
+    width: 20%;
+}
+
+/* Stile dell'area blu scura */
+.headerbg2 {
+    background-color: #00008B; /* Blue */
+    padding: 48px 0;
+    border-bottom: solid 4px #ADD8E6; 
+}
+
+/* Stile dell'area principale */
+.bg {
+    padding: 48px 0;
+}
+
+/* Stile del riquadro blu */
+.bluesquare {
+    background-color: #1E90FF;
+    min-width: 60%;
+    min-height: 480px;
+    border: 2px dashed black;
+}
+
+/* Stile del riquadro rosa */
+.pinksquare {
+    background-color: #FFC0CB;
+    min-width: 40%;
+    min-height: 480px;
+    border: 2px dashed black;
+}
+
+/* Stile del riquadro verde */
+.greensquare{
+    background-color: #228B22;
+    width: 100%;
+    min-height: 800px;
+    border: 2px dashed black;
+}
+.skinsquare{
+    background-color:#F08080;
+    width: 30%;
+    min-height: 600px;
+    border-right: dashed 2px black;
+}
+
+.watersquare{
+    background-color: #20B2AA;
+    width: 17.5%;
+    min-height: 600px;
+    border: dashed 2px white;
+}
+
+.footerbg{
+    background-color: #7FFFD4;
+    padding: 1.5rem 0;
+    justify-content: space-between;
+}
+
+.footeritem{
+    border: dashed 2px black;
+    padding: 0.3rem;
+    background-color: #FFB6C1;
+}
+
+
+
+
+
+
